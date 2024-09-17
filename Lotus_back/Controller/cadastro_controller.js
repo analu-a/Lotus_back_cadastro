@@ -38,7 +38,7 @@ try {
                 
                 return message.ERROR_REQUIRED_FIELDS
             } else {
-                console.log('aqui')
+
                 let novoCadastro = await cadastroDAO.inserirCadastro(cadastro)
                 
                 if (novoCadastro) {

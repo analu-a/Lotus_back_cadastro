@@ -16,6 +16,7 @@ insert into cadastro (nome, sobrenome, email, senha) values
 ("ale",  "alexandre", "ale@gmail.com",  "abc124"),
 ("lucicleide",  "alexandre", "lucicleide@gmail.com",  "abc125"),
 ("lukinhas",  "alexandre", "mcbrinquedohaha@gmail.com", "abc126"),
-("pato",  "alexandre", "patodonalds@gmail.com", "abc127");
+("pato",  "alexandre", "patodonalds@gmail.com", "abc127"),
+("teste",  "teste11", "teste@gmail.com", "teste111");
 
 drop database cms;

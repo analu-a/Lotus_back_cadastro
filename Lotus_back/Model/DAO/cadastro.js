@@ -11,6 +11,9 @@ try {
     return rsCadastro
 
 } catch (error) {
+
+    console.log(error);
+
     return false
 }
 }
@@ -40,6 +43,18 @@ try {
     return false
 }
 }
+
+const editarCadastro = async function(dadosCadastro,id){
+    try {
+        let sql 
+
+        sql = `update cms set 
+       `
+    } catch (error) {
+        
+    }
+}
+
 const returnId = async function (){
 
     try {

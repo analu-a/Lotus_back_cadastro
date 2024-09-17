@@ -41,7 +41,7 @@ app.post('/v1/Lotus/cadastro', cors(), bodyParserJSON, async function(request, r
     let contentType = request.headers['content-type']
 
     let dadosBody = request.body
-    console.log(dadosBody);
+   
 
     let resultDados = await controllerCadastro.setInserirNovoCadastro(dadosBody, contentType)
 
