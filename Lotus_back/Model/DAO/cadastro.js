@@ -30,7 +30,7 @@ try {
         '${cadastro.nome}',
         '${cadastro.sobrenome}',
         '${cadastro.email}',
-        '${cadastro.senha}'
+        SHA1('${cadastro.senha}')
     )`
 
     let result = await prisma.$executeRawUnsafe(sql)
